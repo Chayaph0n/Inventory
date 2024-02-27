@@ -1,0 +1,26 @@
+@import url('/src/root.css');
+
+.bg-btn-delete {
+    width: 100px;
+    height: 40px;
+    background: rgb(255, 0, 111);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.take-btn-delete {
+    font-size: 10px;
+    color: aliceblue;
+    font-weight: 500;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.take-btn-delete:hover {
+    background: rgb(253, 44, 134);
+}

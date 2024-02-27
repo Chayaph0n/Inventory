@@ -1,0 +1,26 @@
+@import url('/src/root.css');
+
+.takecosa-btn {
+    width: 100px;
+    height: 40px;
+    background: rgb(0, 152, 38);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.takecosa-btn:hover {
+    background: var(--color-successi);
+}
+
+
+.takecosa-btn p {
+    color: aliceblue;
+}

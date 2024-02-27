@@ -1,0 +1,45 @@
+@import url('/src/root.css');
+
+.container-con-filter {
+    border-radius: 10px;
+    width: 300px;
+    height: 43px;
+    background: white;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
+.ml-con-filter {
+    margin-left: 15px;
+}
+
+select {
+    background: transparent;
+    font-size: 15px;
+    color: var(--color-dark);
+    width: 150px;
+    cursor: pointer;
+}
+
+.container-con-filter p {
+    font-size: 15px;
+    color: black;
+}
+
+option {
+    font-size: 15px;
+    color: var(--color-dark);
+}
+
+.header-con-filter {
+    border-radius: 7px;
+    margin-left: 5px;
+    background: var(--color-warning);
+    width: 120px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}

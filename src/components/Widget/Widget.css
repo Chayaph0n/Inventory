@@ -1,0 +1,58 @@
+@import url('/src/root.css');
+
+.flex {
+    display: flex;
+}
+
+.ml {
+    margin-left: 7px;
+}
+
+.mt-widget {
+    margin-top: 5px;
+}
+
+.finish span {
+    background: var(--color-primary);
+    transition: all 300ms ease;
+}
+
+.finish span:hover {
+    background: var(--color-primaryi);
+}
+
+.usage span {
+    background: var(--color-warning);
+    transition: all 300ms ease;
+}
+
+.usage span:hover {
+    background: var(--color-warningi);
+}
+
+.all span {
+    background: var(--color-primary-variant);
+    transition: all 300ms ease;
+}
+
+.all span:hover {
+    background: var(--color-primary-varianti);
+}
+
+.good span {
+    background: var(--color-success);
+    transition: all 300ms ease;
+}
+
+.good span:hover {
+    background: var(--color-successi);
+}
+
+.reject span {
+    background: var(--color-danger);
+    transition: all 300ms ease;
+}
+
+.reject span:hover {
+    background: var(--color-dangeri);
+}

@@ -1,0 +1,28 @@
+@import url('/src/root.css');
+
+.custom-datatable .rdt_Table {
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+}
+
+.custom-datatable .rdt_TableHead {
+    font-size: 15px; /* Adjust the font size as desired */
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.custom-datatable .rdt_TableCell {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.custom-datatable .rdt_Table .rdt_TableBody .rdt_TableRow {
+    height: 60px; 
+}

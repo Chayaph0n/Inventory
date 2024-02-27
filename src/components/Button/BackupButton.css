@@ -1,0 +1,26 @@
+@import url('/src/root.css');
+
+.bg-btn-backup {
+    width: 100px;
+    height: 40px;
+    background: var(--color-warning);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.take-btn-backup {
+    font-size: 10px;
+    color: aliceblue;
+    font-weight: 500;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.take-btn-backup:hover {
+    background: var(--color-warningi);
+}

@@ -1,0 +1,303 @@
+@import url('/src/root.css');
+
+
+.successi {
+    color: var(--color-successi);
+}
+
+.mb-1 {
+    margin-bottom: 5px;
+}
+
+.mt-add {
+    margin-top: 20px;
+}
+
+.ml-add {
+    margin-left: 20px;
+}
+
+.row-add {
+    display: flex;
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.between h2{
+    color: aliceblue;
+}
+
+main {
+    margin-top: 3rem;
+}
+
+main h1 {
+    color: var(--color-white);
+}
+
+main .box-input {
+    display: inline-block;
+    background: var(--color-white);
+    border-radius: var(--border-radius-1);
+    margin-top: 1rem;
+    padding: 0.5rem 1.6rem;
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+.box-input-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-input-flex .input-ring{
+    width: 100px;
+}
+
+.box-input-flex input{
+    width: 120px;
+}
+
+.box-input input{
+    width: 150px;
+}
+
+.box-input .input-date{
+    width: 110px;
+}
+
+.ml-2{
+    margin-left: 12px;
+}
+
+.ml-export {
+    margin-left: 20px;
+}
+
+main .box-input:hover{
+    box-shadow: none;
+}
+
+main .box-input input{
+    background: var(--color-white);
+    color: var(--color-dark);
+}
+
+/* ------- UPLOAD FILE -------- */
+.add-product a{
+    background: transparent;
+    border: 2px solid var(--color-white);
+    border-radius: 20px;
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+    height: 45px;
+}
+
+.add-product a:hover{
+    background: var(--color-white);
+    color: var(--color-dark);
+    box-shadow: none;
+}
+
+.add-product a div{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+
+.add-product a div h3{
+    font-weight: 600;
+
+}
+
+main .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -17px;
+}
+
+main .insights {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+}
+
+.chart-container {
+    height: 320px;
+    width: 1000px;
+    background: var(--color-white);
+    border-radius: 20px;
+    margin-top: 1rem;
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+.chart{
+    margin-top: 5px;
+}
+
+.chart-container:hover{
+    box-shadow: none;
+}
+
+.bg-insights {
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding: 0 0 0 20px;
+}
+
+main .insights > div{
+    height: 153px;
+    background: var(--color-white);
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 1rem;
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+main .insights div:hover{
+    box-shadow: none;
+}
+
+main .insights div span {
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    color: var(--color-white);
+    font-size: 2rem;
+}
+
+main .insights .middle h1{
+    font-size: 27px;
+    margin-top: 20px;
+    color: var(--color-dark);
+}
+
+.flex {
+    display: flex;
+}
+
+.ml {
+    margin-left: 7px;
+}
+
+.finish span {
+    background: var(--color-primary);
+    transition: all 300ms ease;
+}
+
+.finish span:hover {
+    background: var(--color-primaryi);
+}
+
+.usage span {
+    background: var(--color-warning);
+    transition: all 300ms ease;
+}
+
+.usage span:hover {
+    background: var(--color-warningi);
+}
+
+.all span {
+    background: var(--color-primary-variant);
+    transition: all 300ms ease;
+}
+
+.all span:hover {
+    background: var(--color-primary-varianti);
+}
+
+.good span {
+    background: var(--color-success);
+    transition: all 300ms ease;
+}
+
+.good span:hover {
+    background: var(--color-successi);
+}
+
+.reject span {
+    background: var(--color-danger);
+    transition: all 300ms ease;
+}
+
+.reject span:hover {
+    background: var(--color-dangeri);
+}
+
+main .insights > div .middle {
+    display: flex;
+    justify-content: center;
+}
+
+main .insights h3{
+    margin: 1rem 0 0.6rem;
+    font-size: 1rem;
+}
+
+/* ------------ RECENT ORDERS ------------ */
+main .recent-orders {
+    margin-top: 20px;
+}
+
+main .recent-orders h2 {
+    margin-bottom: 0.8rem;
+    /* margin-left: 1.5rem; */
+    color: var(--color-white);
+}
+
+main .recent-orders a{
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    color: var(--color-white);
+}
+
+.clear-button {
+    width: 100px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+.center-btn {
+    display: flex;
+    align-items: center;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.con-position {
+    margin-top: -12px;
+    margin-left: 870px;
+}
+
+.box-input-export {
+    background: black;
+    width: 0px;
+}
+
+.flex-dash {
+    display: flex;
+    margin-top: 4px;
+}
+
+.container-table {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,47 @@
+@import url('/src/root.css');
+
+.container-desc {
+    margin-top: 8px;
+    border: 2px solid var(--color-info-dark);
+    border-radius: 10px;
+    width: 300px;
+    height: 43px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.ml-desc {
+    margin-left: 15px;
+}
+
+select {
+    background: transparent;
+    font-size: 15px;
+    color: var(--color-dark);
+    width: 150px;
+    cursor: pointer;
+}
+
+.container-desc p {
+    font-size: 15px;
+    color: white;
+}
+
+option {
+    font-size: 15px;
+    color: var(--color-dark);
+}
+
+.header-desc {
+    border-radius: 7px;
+    margin-left: 5px;
+    background: #9302fa;
+    width: 120px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}

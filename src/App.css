@@ -1,0 +1,23 @@
+@import url('/src/root.css');
+
+.container-main {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  width: 96%;
+  margin: 0 2rem ;
+  gap: 1.8rem;
+  grid-template-columns: 15.5rem 115.5rem;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.mld {
+  margin-left: 20px;
+}
+
+.mll {
+  margin-left: 0px;
+}

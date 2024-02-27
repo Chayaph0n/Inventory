@@ -1,0 +1,50 @@
+@import url('/src/root.css');
+
+input[type="file"] {
+    display: none;
+}
+
+.add-file {
+    /* background: transparent; */
+    background: var(--color-dark);
+    border: 2px solid var(--color-white);
+    border-radius: 20px;
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    /* box-shadow: var(--box-shadow); */
+    transition: all 300ms ease;
+    height: 45px;
+    margin-left: 5px;
+}
+
+.add-file:hover {
+    background: var(--color-white);
+    color: var(--color-dark);
+    border: 2px solid var(--color-light);
+    box-shadow: none;
+}
+
+.mt-file {
+    margin-top: 20px;
+}
+
+.container-file {
+    width: 600px;
+    height: 50px;
+    background-color: var(--color-white);
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: var(--box-shadow);
+}
+
+.file-label {
+    margin-left: 20px;
+}
+
+.custom-swal-width {
+    width: 1500px;
+}
