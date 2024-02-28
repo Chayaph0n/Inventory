@@ -115,7 +115,7 @@ const LoginForm = () => {
             <div className="background">
                 <div className='container'>
                     <div className="content">
-                        <img src="/public/img/wd_bg.png" alt="" />
+                        {/* logo */}
                     </div>
                     <div className={`logreg-box ${isLoginForm ? '' : 'active'}`}>
                         <div className={`form-box login ${isLoginForm ? 'active' : ''}`}>

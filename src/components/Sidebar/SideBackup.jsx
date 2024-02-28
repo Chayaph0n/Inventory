@@ -15,8 +15,7 @@ function SideBarBackup() {
         <aside>
             <div class="top">
                 <div class="logo">
-                    <img className='mt' src="/img/logo.png" alt=""/>
-                    <h2 className='mt'><span class="blue-cosa">COSA </span>INVENTORY</h2>
+                    <h2 className='mt'>INVENTORY</h2>
                 </div>
             </div>
 
