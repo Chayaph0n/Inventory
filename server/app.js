@@ -1,7 +1,7 @@
 const multer = require('multer');
 const xlsx = require('xlsx');
 var express = require('express')
-var cors = require('cors')//ทำให้ api สามารถใช้ได้กับทุกเครื่องไม่ใช่แค่เรื่องเรา
+var cors = require('cors')
 var app = express()
 var bodyParser = require('body-parser')//เข้าถึง json ที่ฝังใน body
 var jsonParser = bodyParser.json()
@@ -10,7 +10,7 @@ const config = require("./config");
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
 var jwt = require('jsonwebtoken');
-const secret = 'WD-Login'
+const secret = 'Login-54321'
 
 const port = 5000;
 
